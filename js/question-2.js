@@ -20,8 +20,8 @@ async function getGameUrl() {
 
         if (i === 7) {
             break;
-        }
-    }
+        };
+    };
 
 } catch (error) {
     document.querySelector('.alert').innerHTML += showAlertToUser(
@@ -29,7 +29,11 @@ async function getGameUrl() {
         'danger'
       );
       console.log(error);
+} finally {
+    setTimeout(() => {
+        document.querySelector('.alert').innerHTML = '';
+    }, 2000);
 }
-}
+};
 
 getGameUrl();
