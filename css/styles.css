@@ -1,0 +1,50 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  display: inline-block;
+  background-color: lightpink;
+  margin: 5px;
+  width: 40%;
+  padding: 30px;
+}
+
+.alert {
+  width: 20%;
+}
+
+.danger {
+  color: red;
+  border: solid 2px red;
+  padding: 20px;
+}
+
+.information {
+  color: blue;
+  border: solid 2px blue;
+  padding: 20px;
+}
+
+.success {
+  color: darkgreen;
+  border: solid 2px darkgreen;
+  padding: 20px;
+}
+
+.warning {
+  color: orange;
+  border: solid 2px orange;
+  padding: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
