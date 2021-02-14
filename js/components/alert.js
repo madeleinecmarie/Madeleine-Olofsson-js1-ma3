@@ -1,6 +1,6 @@
 function showAlertToUser(
 	message = 'This is default message',
-	classType = 'information'
+	cssClass = 'information'
 ) {
-	return `<div class="${classType}">${message}</div>`;
+	return `<div class="${cssClass}">${message}</div>`;
 }
